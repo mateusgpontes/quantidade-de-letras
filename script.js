@@ -24,7 +24,7 @@ button.onclick = (e) => {
     const p = create("p");
     if(input.value.length > 0){ 
         queryAddChild("div", p);
-        p.innerHTML = input.value + " tem " + input.value.length + " letras em sou nome";
+        p.innerHTML = input.value + " tem " + input.value.length + " letras em seu nome";
         input.value = "";  
     }
 }
